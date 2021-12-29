@@ -1,3 +1,174 @@
-h1 {
-  color: blueviolet;
+body {
+  margin: 0 auto;
+  background-color: #1d262d;
+  color: blanchedalmond;
 }
+header {
+  padding: 5px 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1d0b02;
+}
+li {
+  list-style-type: none;
+}
+nav {
+  margin: 0 3%;
+}
+header ul {
+  margin-left: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-element {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: blanchedalmond;
+}
+.nav-element:hover {
+  text-shadow: 2px 2px 5px rgb(255, 248, 238);
+}
+
+.photo {
+  border-radius: 50%;
+}
+.yellow {
+  color: #e28743;
+}
+.about-me {
+  font-size: 1.5rem;
+  color: rgb(255, 220, 163);
+}
+.span-modified {
+  font-style: italic;
+  color: rgb(255, 172, 49);
+  text-decoration: underline;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 100px 0;
+  height: ;
+}
+.wrapper div {
+  max-width: 25%;
+}
+.photo {
+  max-width: 100%;
+  max-height: 100%;
+}
+.short-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+h1 {
+  border-bottom: 1px solid whitesmoke;
+  padding: 10px 0;
+}
+section,
+header {
+  border-bottom: 1px solid wheat;
+}
+.museum-of-candy {
+  width: 800px;
+  height: 400px;
+  background-image: url("/img/museum-of-candy.png");
+  background-size: cover;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border 1px solid grey;
+}
+pre {
+  background-color:#2b3741;
+}
+a {
+  color: rgb(247, 220, 179);
+  font-weight: 300;
+}
+h2 a {}
+.blue {
+  color: rgb(73, 73, 255);
+}
+.green {
+  color: greenyellow;
+}
+  #skills img {
+    max-width: 50%;
+  max-height:50%;
+}
+#skills ul {
+  display: flex;
+}
+
+li {
+  text-align: center;
+}
+#projects {
+  text-align: center;
+}
+#code-example pre {
+  max-width: 400px;
+  margin: 10px auto 50px;
+  text-align: start;
+}
+section {
+  text-align: center;
+  padding: 70px 0;
+}
+.technologies {
+  background-color: grey;
+  line-height: 2rem;
+}
+.lang .white {
+  color: rgb(214, 205, 255);
+}
+h2 {
+font-size: 2rem;}
+h1 {font-size: 2.5rem;}
+#skills h2 {margin-bottom: 70px;}
+ul p, .lang {
+  font-size: 1.5rem;
+line-height: 3rem;
+}
+#languages ul {
+  max-width: 300px;
+  margin: 0 auto;
+  
+}
+#languages li {
+  text-align:left;
+}
+footer {
+   background-color: #1d0b02;
+
+  }
+  footer li {
+    line-height: 1.5rem;
+  }
+  footer h3 {margin-left: 50px;}
+  .year {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .year p {font-size: 1.2rem;}
+  .rs-logo {
+
+    height: 100px;
+    align-self: center;
+  }
+  footer  {   
+    display: flex;
+    text-align: center;
+    justify-content: space-between;}
+    .rs-logo {
+      padding-right: 40px;
+    }
+    

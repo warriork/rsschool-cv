@@ -1,4 +1,4 @@
 # rsschool-cv
-https://warriork.github.io/rsschool-cv/cv
++ __Markdown:__ https://warriork.github.io/rsschool-cv/cv
 
-https://warriork.github.io/rsschool-cv/
++ __HTML:__ https://warriork.github.io/rsschool-cv/

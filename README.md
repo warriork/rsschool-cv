@@ -1,2 +1,3 @@
 # rsschool-cv
-CV markdown
+https://warriork.github.io/rsschool-cv/cv
+https://warriork.github.io/rsschool-cv/

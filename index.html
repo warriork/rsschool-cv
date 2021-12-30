@@ -15,83 +15,122 @@
           <li><a class="nav-element white" href="#contacts">Contacts</a></li>
           <li><a class="nav-element white" href="#projects">Projects</a></li>
           <li><a class="nav-element white" href="#skills">Skills</a></li>
-          <li><a class="nav-element white" href="#code-example">Code example</a></li>
+          <li>
+            <a class="nav-element white" href="#code-example">Code example</a>
+          </li>
           <li><a class="nav-element white" href="languages">Languages</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section id ="about-me">
-        <div class="wrapper">
-          <div>
-            <img class="photo" src="./img/Photo.jpg" alt="Photo" />
-          </div>
-          <div class="short-info">
-            <h1 class="white" id="about-me1"><span class="yellow">Fesina</span> Ihor</h1>
-            <h2>Front-end developer</h2>
-            <p class="about-me">
-              I am interested in
-              <span class="span-modified">programming</span> student with a strong
-              desire to learn and develop my skills.
-            </p>
-          </div>
+    <section id="about-me">
+      <div class="wrapper">
+        <div>
+          <img class="photo" src="./img/Photo.jpg" alt="Photo" />
         </div>
-      </section>
-      <section id="projects">
-        <h2 id="projects1">Projects</h2>
-        <div class="museum-of-candy">
-          <div class="technologies"> HTML, CSS, JS, Bootstrap</div>
+        <div class="short-info">
+          <h1 class="white" id="about-me1">
+            <span class="yellow">Fesina</span> Ihor
+          </h1>
+          <h2>Front-end developer</h2>
+          <p class="about-me">
+            I am interested in
+            <span class="span-modified">programming</span> student with a strong
+            desire to learn and develop my skills.
+          </p>
         </div>
-        <h3><a href="https://warriork.github.io/Museum-of-candy/">Museum of candy</a></h3>
-      </section>
-      <section id="code-example">
-        <h2 id="code-example1">Code example <a href="https://www.codewars.com/kata/52f787eb172a8b4ae1000a34/train/javascript">(Number of trailing zeros of N!)</a></h2>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="museum-of-candy">
+        <div class="technologies">HTML, CSS, JS, Bootstrap</div>
+      </div>
+      <h3>
+        <a href="https://warriork.github.io/Museum-of-candy/"
+          >Museum of candy</a
+        >
+      </h3>
+    </section>
+    <section id="code-example">
+      <h2>
+        Code example
+        <a
+          href="https://www.codewars.com/kata/52f787eb172a8b4ae1000a34/train/javascript"
+          >(Number of trailing zeros of N!)</a
+        >
+      </h2>
+      <div class="code">
         <code>
-          <span class="blue">function</span> zeros(n) {
-           let  <span class="green">count</span> = 0;
-            <span class="blue">for</span> (let i = 1; 5 ** i <= n; i++){
-              <span class="green">count</span> += Math.floor(n/ 5**i)  
-              }
-          <span class="blue">return</span> <span class="green">count</span>
+          <span class="blue">function</span> zeros(n) { <br>
+              let
+          <span class="green">count</span> = 0;<br>
+          <span class="blue">for</span> (let i = 1; 5 ** i &lt;= n; i++){<br>
+          <span class="green">count</span> += Math.floor(n/ 5**i) <br>}<br>
+          <span class="blue">return</span> <span class="green">count</span><br>
           }
         </code>
-      </section>
-      <section id="skills">
-        <h2 id="skills1">Skills</h2>
-        <ul>
-          <li>
-            <img src="./img/html-1.svg" alt="html">
-            <p>HTML</p>
-          </li>
-          <li><img src="./img/css-3.svg" alt="css">
-            <p>CSS</p></li>
-          <li><img src="./img/logo-javascript.svg" alt="JS"> <p>JS
-            </p>
-          </li>
-          <li><img src="./img/bootstrap-4.svg" alt="Bootstrap"> <p>Bootstrap</p></li>
-
-        </ul>
-      </section>
-      <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-          <li class="lang"><span class="white">English:</span> Upper-intermediate</li>
-          <li class="lang"><span class="white">Czech:</span> Upper-intermediate</li>
-          <li class="lang"><span class="white">Russian:</span> Native</li>
-          <li class = "lang"><span class="white">Ukrainian:</span> Native</li>
-        </ul>
-      </section>
+      </div>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          <img src="./img/html-1.svg" alt="html" />
+          <p>HTML</p>
+        </li>
+        <li>
+          <img src="./img/css-3.svg" alt="css" />
+          <p>CSS</p>
+        </li>
+        <li>
+          <img src="./img/logo-javascript.svg" alt="JS" />
+          <p>JS</p>
+        </li>
+        <li>
+          <img src="./img/bootstrap-4.svg" alt="Bootstrap" />
+          <p>Bootstrap</p>
+        </li>
+      </ul>
+    </section>
+    <section id="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li class="lang">
+          <span class="white">English:</span> Upper-intermediate
+        </li>
+        <li class="lang">
+          <span class="white">Czech:</span> Upper-intermediate
+        </li>
+        <li class="lang"><span class="white">Russian:</span> Native</li>
+        <li class="lang"><span class="white">Ukrainian:</span> Native</li>
+      </ul>
+    </section>
     <footer id="contacts">
       <div class="contacts">
-            <h3>Contact me: </h3>
-        <ul><li><b>Mail: </b>warriork123456@gmail.com</li>
-        <li><b>Telegram: </b> @ihor_ff</li>
-        <li><b>Linkedin: </b><a href="https://www.linkedin.com/in/ihor-fesina/">Ihor Fesina</a>
-        </li>
-      <li><b>Github: </b><a href="https://github.com/warriork/">Warriork</a></li></ul>
+        <h3>Contact me:</h3>
+        <ul>
+          <li><b>Mail: </b>warriork123456@gmail.com</li>
+          <li><b>Telegram: </b> @ihor_ff</li>
+          <li>
+            <b>Linkedin: </b
+            ><a href="https://www.linkedin.com/in/ihor-fesina/">Ihor Fesina</a>
+          </li>
+          <li>
+            <b>Github: </b><a href="https://github.com/warriork/">Warriork</a>
+          </li>
+        </ul>
       </div>
       <div class="year"><p>&copy;Ihor Fesina 2021</p></div>
-      <div class="rs-logo"><a href="https://rs.school/js/"><img class="svg" src="./img/logo-rs.svg" alt="RS School" width="100" height="100"></a></div>  
+      <div class="rs-logo">
+        <a href="https://rs.school/js/"
+          ><img
+            class="svg"
+            src="./img/logo-rs.svg"
+            alt="RS School"
+            width="100"
+            height="100"
+        /></a>
+      </div>
     </footer>
   </body>
 </html>

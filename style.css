@@ -85,10 +85,6 @@ header {
   justify-content: flex-end;
   border 1px solid grey;
 }
-code {
-  display:block
-  background-color:#2b3741;
-}
 a {
   color: rgb(247, 220, 179);
   font-weight: 300;
@@ -113,10 +109,13 @@ li {
 #projects {
   text-align: center;
 }
-#code-example code {
+#code-example .code {
+  background-color:#2b3741;
+  padding: 30px 30px;
   max-width: 400px;
   margin: 10px auto 50px;
   text-align: start;
+  font-size: 1.2rem;
 }
 section {
   text-align: center;

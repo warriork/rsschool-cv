@@ -58,8 +58,8 @@ header ul {
   max-width: 25%;
 }
 .photo {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 352px;
+  max-height: 352px;
 }
 .short-info {
   display: flex;
